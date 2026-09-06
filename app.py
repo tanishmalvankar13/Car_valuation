@@ -21,7 +21,7 @@ st.set_page_config(
 # LOAD DATASET (for dropdown options and default values)
 # ================================================================
 
-DATASET_FILE = "/content/cleaned_second_hand_car_dataset.xlsx"
+DATASET_FILE = "cleaned_second_hand_car_dataset.xlsx"
 
 try:
     df = pd.read_excel(DATASET_FILE)
